@@ -6,11 +6,13 @@
 
 ## Installation 
 ```bash
-git clone https://github.com/element18592/creality-mainsail-theme.git ~/klipper_config/.theme
+rm -rf ~/printer_data/config/.theme
+cd ~
+git clone https://github.com/element18592/creality-mainsail-theme.git ~/printer_data/config/.theme
 ```
 ## Update
 ```bash
-git -C ~/klipper_config/.theme pull
+git -C ~/printer_data/config/.theme pull
 ```
 
 ## More
