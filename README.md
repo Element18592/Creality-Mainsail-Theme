@@ -16,5 +16,5 @@ git -C ~/printer_data/config/.theme pull
 ```
 
 ## More
-* Find more themes at [Mainsail Docs - Theming](https://docs.mainsail.xyz/theming](https://docs.mainsail.xyz/overview/features/themes)
+* Find more themes at [Mainsail Docs - Theming](https://docs.mainsail.xyz/overview/features/themes)
 * Install Mainsail Themes with [KIAUH](https://github.com/th33xitus/kiauh) 
