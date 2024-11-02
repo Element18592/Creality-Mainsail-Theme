@@ -1,13 +1,13 @@
-/* .
+/* 
 This is a dark-mode Creality Theme for mainsail
 */
 
 :root {
     --Primary:        #282a36;    /*Black*/
     --Secondary:      #ff5555;    /*Red*/
-    --c_blue:         #8eb240;    /*creality_green*/
-    --gray:           #2b2b2b;    /*gray*/
-    --Blue:           #8eb240; 
+    --c_green:        #8eb240;    /*creality_green*/
+    --gray:           #2b2b2b;
+    --Blue:           #8eb240;
     --Red:            #ff5555;
     --Warnings:       #8eb240;
     --Text:           #f8f8f2;
@@ -15,7 +15,7 @@ This is a dark-mode Creality Theme for mainsail
     --Background:     #44475a;
     --DarkBackground: #282a36;
     --Toolbars:       #44475a;
-    --Sheets:         #282a36;   
+    --Sheets:         #282a36;
 }
 
 #nav-header .v-toolbar__title {
@@ -25,28 +25,30 @@ This is a dark-mode Creality Theme for mainsail
     font-family: monospace;
 }
 
-.v-application .warning {
-    background-color: var(--c_blue) !important;
-    border-color: var(--c_blue);
+.v-application {
+    --v-warning-base: var(--Warnings) !important;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    --v-info-base: var(--c_green) !important
+
 }
 
 .v-application .primary {
     background-color: var(--c_grey) !important;
-    border-color: var(--c_blue) !important;
+    border-color: var(--c_green) !important;
 }
 
 .v-application .success--text {
-    color: var(--c_blue) !important;
-    caret-color: var(--c_blue) !important;
+    color: var(--c_green) !important;
+    caret-color: var(--c_green) !important;
 }
 
 .v-application .primary--text {
-    color: var(--c_blue) !important;
-    caret-color: var(--c_blue) !important;
+    color: var(--c_green) !important;
+    caret-color: var(--c_green) !important;
 }
 
 .v-application a {
-    color: var(--c_blue);
+    color: var(--c_green);
 }
 
  .v-btn:not(.v-btn--outlined).warning {
@@ -58,21 +60,21 @@ This is a dark-mode Creality Theme for mainsail
 }
 
 .v-application .text-body-2, .v-application .text-button {
-    color: var(--c_blue);
+    color: var(--c_green);
 }
 
 .v-progress-circular__overlay .v-card__text {
-    stroke: var(--c_blue) !important;
+    stroke: var(--c_green) !important;
 }
 
 .v-slider__track-fill.primary {
-    background-color: var(--c_blue) !important;
-    border-color: var(--c_blue) !important;
+    background-color: var(--c_green) !important;
+    border-color: var(--c_green) !important;
 }
 
 .v-slider__thumb.primary {
-    background-color: var(--c_blue) !important;
-    border-color: var(--c_blue) !important;
+    background-color: var(--c_green) !important;
+    border-color: var(--c_green) !important;
 }
 
 /*
